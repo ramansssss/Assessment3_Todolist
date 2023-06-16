@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Todolist</string>
+    <string name="checkbox">checkbox</string>
+    <string name="place_holder">place_holder</string>
+    <string name="new_task">Aktivitasmu!!</string>
+    <string name="save">Simpan</string>
+    <string name="select_time">Pilih Waktu</string>
+    <string name="description">Deskripsi</string>
+    <string name="name">Nama</string>
+    <string name="task">Task</string>
+    <string name="judul">TodoList</string>
+    <string name="about_page">TodoList merupakan sebuah aplikasi untuk membantu kita dalam peroduktivitas dan menjadi diri kita lebih teratur dikala harinya.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Info Fragment</string>
+    <string name="title_activity_menu_samping">MenuSamping</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="baseCurrency">AUD: 1.00</string>
+    <string name="last_update">Last Update:</string>
+    <string name="nzd">NZD:</string>
+    <string name="usd">USD:</string>
+    <string name="gbp">GBP:</string>
+    <string name="base_currency">baseCurrency</string>
+    <string name="title">title</string>
+    <string name="message">message</string>
+    <string name="schedule_notification">schedule_notification</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="info_fragment">Info Fragment</string>
+    <string name="home">Home</string>
+    <string name="info">Info</string>
+</resources>

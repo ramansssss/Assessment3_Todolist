@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="org.d3if3065.Todolist.ui.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="org.d3if3065.Todolist.ui.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" >
+        <action
+            android:id="@+id/action_infoFragment_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </fragment>
+    <dialog
+        android:id="@+id/newTaskSheet"
+        android:name="org.d3if3065.Todolist.ui.NewTaskSheet"
+        android:label="fragment_new_task_sheet"
+        tools:layout="@layout/fragment_new_task_sheet" >
+        <action
+            android:id="@+id/action_newTaskSheet_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </dialog>
+    <activity
+        android:id="@+id/dataWeb"
+        android:name="org.d3if3065.Todolist.network.DataWeb"
+        android:label="activity_data_web"
+        tools:layout="@layout/activity_data_web" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="org.d3if3065.Todolist.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+</navigation>
